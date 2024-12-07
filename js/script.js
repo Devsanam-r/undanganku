@@ -1,5 +1,5 @@
 const myModal = new boostrap.Modal('#sampul-modal');
 
-window.addEventListener('DOMContentLoaded',()=>{
+window.addEventListener('DOMContentLoaded', ()=>{
   myModal.show();
 });
