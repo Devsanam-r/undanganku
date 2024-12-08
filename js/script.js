@@ -1,4 +1,4 @@
-const myModal = boostrap.Modal.getOrCreateInstance('#exampleModalFullscreen');
+const myModal = boostrap.Modal.getOrCreateInstance('#myModal');
 
 window.addEventListener('DOMContentLoaded', () => {
   myModal.show();
