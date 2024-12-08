@@ -4,5 +4,5 @@ window.addEventListener('DOMContentLoaded', () => {
   myModal.show();
 });
 
-var myModalEl = document.getElementById('myModal')
+var myModalEl = document.getElementById('sampul-modal')
 var modal = bootstrap.Modal.getInstance(myModalEl) // Returns a Bootstrap modal instance
