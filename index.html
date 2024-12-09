@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="CSS/bootstrap.min.css" rel="stylesheet">
     <script defer src="js/bootstrap.bundle.min.js"></script>
     <script defer src="js/script.js"></script>
+    
+    <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("images/sampul.jpeg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
 
   </head>
   <body>
@@ -14,12 +34,7 @@
     
     <div class="modal fade" id="sampul-modal">
       <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content" "bg-primary d-flex 
-             align-items-center 
-             justify-content-center" style="background: url('images/sampul.jpeg') 
-             no-repeat center center fixed; 
-             background-size: cover; 
-             height: 100vh;">
+        <div class="modal-content" "bg">
       <!-- Modal body -->
           <div class="modal-body">      
                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Open Invitation</button>
