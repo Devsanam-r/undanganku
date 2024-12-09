@@ -7,7 +7,7 @@ body, html {
 .bg {
   /* The image used */
   background-image: url("images/sampul.jpeg");
-filter: brightness(30%);
+
   /* Full height */
   height: 100%; 
 
@@ -15,5 +15,6 @@ filter: brightness(30%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(30%);
   
 }
