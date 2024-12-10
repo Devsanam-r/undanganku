@@ -1,11 +1,11 @@
-.modal-bg{
+.hero-section{
   background: url('images/sampul.jpeg') no-repeat center;
   background-size: cover;
   width: 100%;
   height: 100vh;
 }
 
-.modal-bg::before {
+.hero-section::before {
   background-color: rgba(0, 0, 0, 0.6);
   content: "";
   position: absolute;
