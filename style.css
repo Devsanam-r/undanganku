@@ -1,9 +1,7 @@
 .hero-section{
-  background: url('images/sampul.jpeg');
-  background-blend-mode: multiply;
+  background: url('images/sampul.jpeg') no-repeat center;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  
   
 }
 
